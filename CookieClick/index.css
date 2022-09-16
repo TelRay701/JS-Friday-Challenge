@@ -1,0 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.cookie.png {
+  width: 150px;
+  height: 100px;
+}
+
+#counter {
+  color: #39ff14;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Cookie Clicker</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cookie Clicker</h1>
+      <p>This is a replica of the cookie clicker game.</p>
+    </header>
+
+    <section>
+      <img src="images/cookie.png" alt="cookie image" onclick="increment()" />
+
+      <h2>Cookies Made: <span id="counter">0</span></h2>
+
+      <p>Click below to add an auto clicker</p>
+    </section>
+    <section>
+      <button class="upgradebtn" onclick="upgrade()">UPGRADE</button>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
